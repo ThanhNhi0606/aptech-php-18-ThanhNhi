@@ -1,0 +1,136 @@
+.gioithieu {
+    height: 200px;
+    width : 90%;
+    background-color: brown;
+    margin:auto;
+    display: flex;
+    justify-content: center;    
+}
+h1 {
+    color: white;
+    font-size : 35px;
+    text-align: center;
+}
+h3 {
+    color: white;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.hoten {
+    height: 100%;
+    width: 50%;
+    margin-bottom: 10px;
+}
+img {
+    border: 2px solid white;
+    border-radius:50%;
+    height: 200px;
+    width: 200px;
+}
+
+
+.lylich {
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    background-color:rgb(233, 231, 231);
+    display: flex;
+    justify-content: space-between;
+}
+
+.bentrai{
+    height: 50%;
+    width: 49%;
+}
+
+.intro {
+    height: 100%;
+    width : 100%;
+    border: 1px solid crimson;
+
+}
+h2 {
+    color: darkred;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: orangered;
+}
+ul {
+    margin-left: 60px;
+    font-size: 18px;
+    text-align : left;
+    line-height: 30px;    
+}
+
+.muctieu {
+    height: 100%;
+    width : 100%;
+    border: 1px solid crimson;
+    margin: center;
+    text-align: center;
+}
+p {
+    text-align: center;
+    font-size: 18px;
+    word-spacing: 5px;
+    text-indent: 20px;
+    line-height: 30px;
+}
+
+.ngonngu {
+    height: 100%;
+    width : 100%;
+    border: 1px solid crimson;
+    margin: center;
+    text-align: left;
+    line-height: 30px;
+}
+
+.kynang {
+    height: 100%;
+    width : 100%;
+    border: 1px solid crimson;
+    margin: center;
+    text-align: left;
+    line-height: 30px;
+}
+
+
+.benphai{
+    height: 50%;
+    width: 49%;
+}
+
+.kinhnghiem {
+    height: 100%;
+    width:  100%;
+    border: 1px solid crimson;
+    letter-spacing: 2px;
+    line-height: 10px;
+}
+
+.hocvan {
+    height : 100%;
+    width: 100%;
+    border : 1px solid crimson;
+    letter-spacing: 2px;
+    line-height: 10px;
+}
+
+h4 {
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sothich {
+    height : 203px;
+    width: 100%;
+    border : 1px solid crimson;
+    letter-spacing: 2px;
+    line-height: 10px;
+}

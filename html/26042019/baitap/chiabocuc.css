@@ -1,0 +1,110 @@
+.part1 {
+    height: 100px;
+    width : 85%;
+    background-color: red;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bentrai {
+    height : 50%;
+    width: 60%;
+    background-color: lightcoral;
+    margin: auto ;
+    border: 1px solid white;
+}
+
+.benphai {
+    height : 50%;
+    width: 30%;
+    background-color: lightcoral;
+    margin: auto;
+    border: 1px solid white;
+}
+
+
+.part2 {
+    height : 150px;
+    width : 85%;
+    background-color: gray;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.bentrai2 {
+    height : 80px;
+    width : 50%;
+    margin : auto 60px;;
+}
+.tren {
+    height: 20px;
+    width: 100%;
+    background-color: lightgrey;
+    margin: auto;
+    border: 1px solid white;
+}
+
+.duoi {
+    height: 36px;
+    width: 100%;
+    background-color: lightgrey;
+    margin: auto ;
+    border: 1px solid white;
+}
+
+
+.benphai2 {
+    height : 150px;
+    width : 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.otrai {
+    height: 110px;
+    width: 40%;
+    background-color: lightgrey;
+    margin: auto;
+    border: 1px solid white;
+}
+
+.ophai {
+    height: 110px;
+    width: 40%;
+    background-color: lightgrey;
+    margin : auto;
+    border: 1px solid white;
+}
+
+.part3 {
+    height: 50px;
+    width: 85%;
+    background-color: black;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.trai {
+    height: 3%;
+    width : 30%;
+    background-color: white;
+    margin: auto;
+}
+
+.giua {
+    height: 3%;
+    width : 30%;
+    background-color: white;
+    margin: auto;
+}
+
+.phai {
+    height: 3%;
+    width : 30%;
+    background-color: white;
+    margin: auto;
+}
