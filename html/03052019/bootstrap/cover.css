@@ -1,0 +1,40 @@
+.first-left {
+    color: white;
+    text-align: center;
+    font-family: Arial;
+}
+
+a:link,
+a:visited {
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+a:hover,
+a:active {
+    color: gray;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: auto;
+    line-height: 100px;
+}
+
+p {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+}
+
+a.between {
+    height: 100px;
+    background-color: white;
+    text-align: center;
+    color: black;
+    border: 1px solid black;
+}

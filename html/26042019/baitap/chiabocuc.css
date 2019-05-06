@@ -2,11 +2,10 @@
     height: 100px;
     width : 85%;
     background-color: red;
-    margin: auto;
+    margin: auto;       /* có thể dùng align-items: center */
     display: flex;
     justify-content: space-around;
 }
-
 .bentrai {
     height : 50%;
     width: 60%;
@@ -14,7 +13,6 @@
     margin: auto ;
     border: 1px solid white;
 }
-
 .benphai {
     height : 50%;
     width: 30%;
@@ -22,7 +20,7 @@
     margin: auto;
     border: 1px solid white;
 }
-
+        /* xong phần 1 */ 
 
 .part2 {
     height : 150px;
@@ -33,20 +31,19 @@
     justify-content: space-around;
 }
 
-
 .bentrai2 {
     height : 80px;
     width : 50%;
-    margin : auto 60px;;
+    margin : auto 60px;
+
 }
 .tren {
     height: 20px;
     width: 100%;
     background-color: lightgrey;
-    margin: auto;
+    margin-bottom: 20px;
     border: 1px solid white;
 }
-
 .duoi {
     height: 36px;
     width: 100%;
@@ -55,14 +52,12 @@
     border: 1px solid white;
 }
 
-
 .benphai2 {
     height : 150px;
     width : 50%;
     display: flex;
     justify-content: space-between;
 }
-
 .otrai {
     height: 110px;
     width: 40%;
@@ -70,7 +65,6 @@
     margin: auto;
     border: 1px solid white;
 }
-
 .ophai {
     height: 110px;
     width: 40%;
@@ -78,6 +72,7 @@
     margin : auto;
     border: 1px solid white;
 }
+            /* xong phần 2 */
 
 .part3 {
     height: 50px;
