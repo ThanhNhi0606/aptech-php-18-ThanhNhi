@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="./bootstrap.css">
+
+    <link rel="stylesheet" href="./checkout.css">
+</head>
+
+<body class="body">
+    <div class="khung">
+        <div class="hinhanh">
+            <img src="./hinhanh/nhi.jpg" alt="anhdaidien">
+        </div>
+
+        <div class="container.1">
+            <div class="row mx-auto">
+                <div class="col-12 d-flex flex-column justify-content-center">
+                    <h2> Checkout form </h2>
+                    <p class="font-weight-light"> Below is an example form built entirely
+                        with Bootstrap’s form controls. Each required
+                        form group has a validation state that can be
+                        triggered by attempting to submit the form without
+                        completing it.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container.2">
+            <div class="row">
+
+                <div class="col-8 left">
+                    <div class="first">
+                        <h3> Billing address </h3>
+                    </div>
+                    <div class="second">
+                        <div style="width: 55%">
+                            <label for="usr"> First name:</label>
+                            <input type="text" class="form-control" id="usr" name="firstname">
+                        </div>
+                        <div style="width: 40%">
+                            <label for="usr"> Last name:</label>
+                            <input type="text" class="form-control" id="usr" name="lastname">
+                        </div>
+                    </div>
+                    <div class="third">
+                        <label for="usr"> Username:</label>
+                        <div class="input">
+                            <div style="width:6%">
+                                <span class="input-group-text"> &#x00040 </span>
+                            </div>
+                            <div style="width: 94%">
+                                <input type="text" placeholder="Username" class="form-control" id="usr" name="username">
+                            </div>
+                        </div>
+                    </div>
+                    <div style="margin-bottom: 15px">
+                        <label for="usr"> Email (Optional)</label>
+                        <input type="text" class="form-control" id="usr" name="lastname" placeholder="you@example.com">
+                    </div>
+                    <div style="margin-bottom: 15px">
+                        <label for="usr"> Address </label>
+                        <input type="text" class="form-control" id="usr" name="lastname" placeholder="1234 Main St">
+                    </div>
+
+                    <div style="margin-bottom: 15px">
+                        <label for="usr"> Address 2 (Optional) </label>
+                        <input type="text" class="form-control" id="usr" name="lastname"
+                            placeholder="Apartment or suite">
+                    </div>
+
+                    <div class="row" style="margin-bottom: 20px">
+                        <div class="col-5 ">
+                            <label for="usr"> Country </label>
+                            <div>
+                                <button type="button" class="btn btn-outline-secondary dropdown-toggle btn-block "
+                                    data-toggle="dropdown">Choose ... </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Link 1</a>
+                                    <a class="dropdown-item" href="#">Link 2</a>
+                                    <a class="dropdown-item" href="#">Link 3</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 ">
+                            <label for="state"> State </label>
+                            <div>
+                                <button type="button" class="btn btn-block btn-outline-secondary dropdown-toggle"
+                                    data-toggle="dropdown">
+                                    Choose ...
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Link 1</a>
+                                    <a class="dropdown-item" href="#">Link 2</a>
+                                    <a class="dropdown-item" href="#">Link 3</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 ">
+                            <label for="usr"> Zip </label>
+                            <input type="text" class="form-control" id="usr" name="lastname">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="mx-4" style="margin-bottom:15px">
+                        <div>
+                            <label class="form-check-label" for="check1">
+                                <input type="checkbox" class="form-check-input" id="check1" name="option1"
+                                    value="something"> Shipping address is the same as my billing address
+                            </label>
+                        </div>
+                        <div>
+                            <label class="form-check-label" for="check1">
+                                <input type="checkbox" class="form-check-input" id="check1" name="option1"
+                                    value="something"> Save this information for next time
+                            </label>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div>
+                        <h3> Payment </h3>
+                        <div class="mx-4" style="margin-bottom: 20px">
+                            <div>
+                                <label class="form-check-label" for="check1">
+                                    <input type="radio" class="form-check-input" id="check1" name="option1"
+                                        value="something" checked> Credit card
+                                </label>
+                            </div>
+                            <div>
+                                <label class="form-check-label" for="check1">
+                                    <input type="radio" class="form-check-input" id="check1" name="option1"
+                                        value="something"> Debit card
+                                </label>
+                            </div>
+                            <div>
+                                <label class="form-check-label" for="check1">
+                                    <input type="radio" class="form-check-input" id="check1" name="option1"
+                                        value="something"> PayPal
+                                </label>
+                            </div>
+                        </div>
+                        <div class="second">
+                            <div style="width: 55%">
+                                <label for="usr"> Name on card</label>
+                                <input type="text" class="form-control" id="usr" name="nameoncard">
+                            </div>
+                            <div style="width: 40%">
+                                <label for="usr"> Credit card number</label>
+                                <input type="text" class="form-control" id="usr" name="creditcardnumber">
+                            </div>
+                        </div>
+                        <div class="second" style="width:55%">
+                            <div style="width:60%">
+                                <label for="usr"> Expiration </label>
+                                <input type="text" class="form-control" id="usr" name="nameoncard">
+                            </div>
+                            <div style="width:35%">
+                                <label for="usr"> CVV </label>
+                                <input type="text" class="form-control" id="usr" name="nameoncard">
+                            </div>
+                        </div>
+                        <hr>
+                        <div>
+                            <button type="submit" class="btn btn-primary btn-lg btn-block" style="height:100%">
+                                Continue to checkout</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4 right">
+                    <div class="yourcard">
+                        <div style="width:50%">
+                            <h4> Your card</h4>
+                        </div>
+                        <div style="width:11%">
+                            <span class="input-group-text soba "> 3 </span>
+                        </div>
+                    </div>
+                    <ul class="list-group" style="margin-bottom: 20px">
+                        <li class="list-group-item list-1">
+                            <div>
+                                <h6> Product name </h6>
+                                <small style="color:gray"> Brief description </small>
+                            </div>
+                            <span style="color:gray"> $12 </span>
+                        </li>
+                        <li class="list-group-item list-1">
+                            <div>
+                                <h6> Second product </h6>
+                                <small style="color:gray"> Brief description </small>
+                            </div>
+                            <span style="color:gray"> $8 </span>
+                        </li>
+                        <li class="list-group-item list-1">
+                            <div>
+                                <h6> Third item</h6>
+                                <small style="color:gray"> Brief description </small>
+                            </div>
+                            <span style="color:gray"> $5 </span>
+                        </li>
+                        <li class="list-group-item list-1" style="background-color:lightgray">
+                            <div>
+                                <h6 style="color:green"> Promo code </h6>
+                                <small style="color:green"> EXAMPLECODE </small>
+                            </div>
+                            <span style="color:green"> -$5 </span>
+                        </li>
+                        <li class="list-group-item list-1">
+                            <div>
+                                <h6 class="font-weight-normal"> Total (USD) </h6>
+                            </div>
+                            <span class="font-weight-bold"> $20 </span>
+                        </li>
+                    </ul>
+                    <div class="promocode">
+                        <div style="width:75%">
+                            <input type="text" class="form-control" placeholder="Promo code">
+                        </div>
+                        <div class="input-group-append" style="width:25%">
+                            <button type="submit" class="btn btn-secondary">Redeem</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

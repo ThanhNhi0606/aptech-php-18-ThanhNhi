@@ -1,0 +1,96 @@
+.body {
+    background-color: rgba(247, 247, 247, 0.932);
+}
+
+.khung {
+
+    height: 100%;
+    width: 80%;
+    margin: auto;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+p {
+    width: 65%;
+    text-align: center;
+    height: 100px;
+    margin: auto;
+    font-size: 20px;
+}
+
+.left {
+    margin-top: 30px;
+}
+
+h3 {
+    font-size: 25px;
+    width: 55%;
+    margin-bottom: 25px;
+}
+
+.second {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2-px;
+}
+
+.third {
+    margin-bottom: 20px;
+}
+
+.input {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.right {
+    margin-top: 30px;
+}
+
+.yourcard {
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+}
+
+h4 {
+    font-size: 25px;
+    color: gray;
+}
+
+.soba {
+    background-color: #6c757d;
+    text-align: center;
+    border-radius: 40%;
+    color: white;
+    line-height: 18px;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.list-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.promocode {
+    display: flex;
+    justify-content: space-between;
+}
