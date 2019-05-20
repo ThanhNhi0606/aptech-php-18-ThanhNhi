@@ -1,0 +1,11 @@
+.header {
+    background-color: rgb(54, 54, 54);
+    color: white;
+    height: 55px;
+    border: 2px solid red;
+}
+
+h4 {
+    text-align: center;
+    margin: center;
+}
