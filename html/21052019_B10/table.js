@@ -44,7 +44,7 @@ var data = {
 //     document.tbody.appendChild(heading);
 // }
 
-// tạo một function thay cho document.createElement(" ")
+
 function Create(nameOfElement) {
     return document.createElement(nameOfElement);
 }
