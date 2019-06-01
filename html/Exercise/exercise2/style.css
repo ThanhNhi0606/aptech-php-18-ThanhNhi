@@ -1,0 +1,13 @@
+a {
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.image {
+    background-image: url("hinh2.jfif");
+    height: 500px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+}
